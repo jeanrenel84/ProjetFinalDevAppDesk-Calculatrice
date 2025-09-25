@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|c:\\users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|solutionrelative:examen1 applis bureau\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|c:\\users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|solutionrelative:examen1 applis bureau\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|c:\\users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE79E431-F3EF-4769-A3E4-B40D3544EC94}|examen1 applis bureau\\examen1 applis bureau.csproj|solutionrelative:examen1 applis bureau\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1418685207:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\App.xaml",
+              "RelativeDocumentMoniker": "examen1 applis bureau\\App.xaml",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\App.xaml",
+              "RelativeToolTip": "examen1 applis bureau\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T08:50:38.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "examen1 applis bureau\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\MainWindow.xaml",
+              "RelativeToolTip": "examen1 applis bureau\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-24T17:11:34.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "examen1 applis bureau\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\examen1 applis bureau\\examen1 applis bureau\\MainWindow.xaml.cs",
+              "RelativeToolTip": "examen1 applis bureau\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T17:11:32.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

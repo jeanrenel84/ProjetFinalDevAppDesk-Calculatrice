@@ -1,0 +1,87 @@
+﻿<Application x:Class="examen1_applis_bureau.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:examen1_applis_bureau"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <!-- Controleur pour definir la bordure et les actions -->
+        <ControlTemplate x:Key="TemplateDeBase" TargetType="Button">
+            <Border x:Name="border"
+                Background="{TemplateBinding Background}" 
+                BorderBrush="{TemplateBinding BorderBrush}" 
+                BorderThickness="{TemplateBinding BorderThickness}" 
+                CornerRadius="100"
+                Padding="{TemplateBinding Padding}">
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="border" Property="Background" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Tag}"/>
+
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="border" Property="Background" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Uid}"/>
+
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+        <!-- Style de Base c-a-d ce qui est commun a tous les boutons-->
+        <Style TargetType="Button" x:Key="StyleDeBase">
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Template" Value="{StaticResource TemplateDeBase}"/>
+        </Style>
+
+        <!-- Differents styles par bloc en utilisant BasedOn qui est une sorte d'héritage-->
+
+        <Style TargetType="Button" x:Key="StyleGroupe1" BasedOn="{StaticResource StyleDeBase}">
+            <Setter Property="Background" Value="#333333"/>
+            <Setter Property="Tag" Value="#4A4A4A"/>
+            <Setter Property="Uid" Value="#1C1C1C"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="StyleGroupe2" BasedOn="{StaticResource StyleDeBase}">
+            <Setter Property="Background" Value="#FF9500"/>
+            <Setter Property="Tag" Value="#FFA733"/>
+            <Setter Property="Uid" Value="#CCC7A00"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="StyleGroupe3" BasedOn="{StaticResource StyleDeBase}">
+            <Setter Property="Background" Value="#D4D4D2"/>
+            <Setter Property="Tag" Value="#E5E5E2"/>
+                <Setter Property="Uid" Value="#D4D4D2"/>
+            <Setter Property="Foreground" Value="#000000"/>
+        </Style>
+
+        <Style TargetType="Button" x:Key="StyleEgal">
+            <Setter Property="Background" Value="#FF9500"/>
+            <Setter Property="Tag" Value="#FFA733"/>
+            <Setter Property="Uid" Value="#CCC7A00"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+        </Style>
+
+
+        <Style TargetType="Button" x:Key="Styleplusoumoins">
+            <Setter Property="Background" Value="#333333"/>
+            <Setter Property="Tag" Value="#4A4A4A"/>
+            <Setter Property="Uid" Value="#1C1C1C"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            
+        </Style>
+
+
+
+
+
+
+    </Application.Resources>
+</Application>
+
+

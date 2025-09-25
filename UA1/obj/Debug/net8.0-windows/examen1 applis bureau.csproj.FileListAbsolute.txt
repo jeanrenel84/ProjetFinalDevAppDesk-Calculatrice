@@ -1,0 +1,21 @@
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\bin\Debug\net8.0-windows\examen1 applis bureau.exe
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\bin\Debug\net8.0-windows\examen1 applis bureau.deps.json
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\bin\Debug\net8.0-windows\examen1 applis bureau.runtimeconfig.json
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\bin\Debug\net8.0-windows\examen1 applis bureau.dll
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\bin\Debug\net8.0-windows\examen1 applis bureau.pdb
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau_MarkupCompile.cache
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau_MarkupCompile.lref
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\App.baml
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.g.resources
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.AssemblyInfo.cs
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.dll
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\refint\examen1 applis bureau.dll
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.pdb
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\examen1 applis bureau.genruntimeconfig.cache
+C:\Users\danie\source\repos\examen1 applis bureau\examen1 applis bureau\obj\Debug\net8.0-windows\ref\examen1 applis bureau.dll
