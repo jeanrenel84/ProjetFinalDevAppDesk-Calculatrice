@@ -1,0 +1,85 @@
+﻿<Window x:Class="ProjetCalculatriceUA1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetCalculatriceUA1"
+        mc:Ignorable="d"
+            Title="Math-jean-josia-danie_UA1" Height="500" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+Background="#000">
+    <Border Padding="5" >
+        <Grid >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <TextBlock Text=" 1+21" Grid.ColumnSpan="5" HorizontalAlignment="Right" VerticalAlignment="Center" Name="Resultat" Foreground="White"/>
+
+            <TextBlock Text=" 0" Grid.ColumnSpan="5" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Name="Calcul" Foreground="White"/>
+
+            <!--#region  Ligne 1-->
+            <Button Content="Sin" Grid.Row="2" Style="{StaticResource StyleGroupe3}" Name="sin"/>
+            <Button Content="Cos" Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleGroupe3}" Name="cos" />
+            <Button Content="Tan" Grid.Row="2" Grid.Column="2" Style="{StaticResource StyleGroupe3}" Name="tan" />
+            <Button Content="CE" Grid.Row="2" Grid.Column="3" Style="{StaticResource StyleGroupe3}" Name="ce"/>
+            <Button Content="C" Grid.Row="2" Grid.Column="4" Style="{StaticResource StyleGroupe3}" Name="c"/>
+            <!--#endregion-->
+
+            <!--#region  Ligne 2-->
+            <Button Content="ArcSin" Grid.Row="3" Style="{StaticResource StyleGroupe3}" Name="arcsin"/>
+            <Button Content="ArcCos" Grid.Row="3" Grid.Column="1" Style="{StaticResource StyleGroupe3}" Name="arccos"/>
+            <Button Content="ArcTan" Grid.Row="3" Grid.Column="2" Style="{StaticResource StyleGroupe3}" Name="arctan" />
+            <Button Content="Back" Grid.Row="3" Grid.Column="3" Style="{StaticResource StyleGroupe3}" Name="back" />
+            <Button Content="÷" Grid.Row="3" Grid.Column="4" Style="{StaticResource StyleGroupe2}" Name="division" />
+            <!--#endregion-->
+
+            <!--#region  Ligne 3-->
+            <Button Content="π" Grid.Row="4" Style="{StaticResource StyleGroupe1}" Name="pi"/>
+            <Button Content="7" Grid.Row="4" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="sept"/>
+            <Button Content="8" Grid.Row="4" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="huit"/>
+            <Button Content="9" Grid.Row="4" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="neuf" />
+            <Button Content="×" Grid.Row="4" Grid.Column="4" Style="{StaticResource StyleGroupe2}" Name="multiplication"/>
+            <!--#endregion-->
+
+            <!--#region  Ligne 4-->
+            <Button Content="e" Grid.Row="5" Style="{StaticResource StyleGroupe1}" Name="epsilon" Height="43" Margin="5,5,5,0" VerticalAlignment="Top" />
+            <Button Content="4" Grid.Row="5" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="quatre" />
+            <Button Content="5" Grid.Row="5" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="cinq" />
+            <Button Content="6" Grid.Row="5" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="six" />
+            <Button Content="-" Grid.Row="5" Grid.Column="4" Style="{StaticResource StyleGroupe2}" Name="soustraction" />
+            <!--#endregion-->
+
+            <!--#region  Ligne 5-->
+            <Button Content="+/-" Grid.Row="6" Grid.RowSpan="2" Style="{StaticResource Styleplusoumoins}" Name="plusoumoins" />
+            <Button Content="1" Grid.Row="6" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="un" />
+            <Button Content="2" Grid.Row="6" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="deux"/>
+            <Button Content="3" Grid.Row="6" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="trois" />
+            <Button Content="+" Grid.Row="6" Grid.Column="4" Style="{StaticResource StyleGroupe2}" Name="plus" />
+            <!--#endregion-->
+
+            <!--#region  Ligne 6-->
+            <Button Content="0" Grid.Row="7" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="zero"/>
+            <Button Content="." Grid.Row="7" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="virgule" Height="43" Margin="5,0,5,5" VerticalAlignment="Bottom"/>
+            <Button Content="=" Grid.Row="7"  Grid.Column="3" Grid.ColumnSpan="2"  Style="{StaticResource StyleEgal}" Name="egal" />
+            <!--#endregion-->
+
+        </Grid>
+    </Border>
+</Window>
