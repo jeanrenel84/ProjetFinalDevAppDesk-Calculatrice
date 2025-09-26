@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\",
+  "WorkspaceRootPath": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\orevi\\onedrive\\desktop\\projetfinalcalculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|solutionrelative:projetcalculatriceua1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\orevi\\onedrive\\desktop\\projetfinalcalculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\danie\\source\\repos\\projetfinaldevappdesk-calculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|solutionrelative:projetcalculatriceua1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\orevi\\onedrive\\desktop\\projetfinalcalculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\danie\\source\\repos\\projetfinaldevappdesk-calculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|solutionrelative:projetcalculatriceua1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|c:\\users\\danie\\source\\repos\\projetfinaldevappdesk-calculatrice\\projetcalculatriceua1\\projetcalculatriceua1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DA51CEA5-17CA-45DF-BDA9-FFB8C7B755FC}|ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj|solutionrelative:projetcalculatriceua1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,27 +22,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1418685207:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProjetCalculatriceUA1\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml",
               "RelativeToolTip": "ProjetCalculatriceUA1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-26T00:36:19.481Z",
+              "WhenOpened": "2025-09-26T10:03:09.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\App.xaml",
               "RelativeDocumentMoniker": "ProjetCalculatriceUA1\\App.xaml",
-              "ToolTip": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\App.xaml",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\App.xaml",
               "RelativeToolTip": "ProjetCalculatriceUA1\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-09-25T15:24:15.9Z",
@@ -50,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjetCalculatriceUA1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProjetCalculatriceUA1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danie\\source\\repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "ProjetCalculatriceUA1\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T15:23:41.151Z",
               "EditorCaption": ""

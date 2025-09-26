@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uGYvUvbQHnk=",
+  "dgSpecHash": "E2nSFQj6iCs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\orevi\\OneDrive\\Desktop\\ProjetFinalCalculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\orevi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
-    "C:\\Users\\orevi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
-    "C:\\Users\\orevi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
-    "C:\\Users\\orevi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.18\\microsoft.netcore.app.host.win-x64.8.0.18.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\danie\\Source\\Repos\\ProjetFinalDevAppDesk-Calculatrice\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1\\ProjetCalculatriceUA1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
