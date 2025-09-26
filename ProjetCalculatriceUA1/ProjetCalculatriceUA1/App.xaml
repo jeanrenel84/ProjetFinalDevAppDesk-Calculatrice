@@ -5,16 +5,15 @@
              StartupUri="MainWindow.xaml">
     
     <Application.Resources>
-
-        <!-- Controleur pour definir la bordure et les actions -->
-        <ControlTemplate x:Key="TemplateDeBase" TargetType="Button">
+        <!-- Controleur pour definir la bordure pour les boutons plus/Moins et le bouton =-->
+        <ControlTemplate x:Key="TemplateEgalEtPlusOuMoins" TargetType="Button">
             <Border x:Name="border"
-             Background="{TemplateBinding Background}" 
-             BorderBrush="{TemplateBinding BorderBrush}" 
-             BorderThickness="{TemplateBinding BorderThickness}" 
-             CornerRadius="100"
-             Padding="{TemplateBinding Padding}">
-                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+              Background="{TemplateBinding Background}" 
+              BorderBrush="{TemplateBinding BorderBrush}" 
+              BorderThickness="{TemplateBinding BorderThickness}" 
+              CornerRadius="15"
+              Padding="{TemplateBinding Padding}">
+                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/> 
             </Border>
 
             <ControlTemplate.Triggers>
@@ -24,7 +23,29 @@
                 </Trigger>
                 <Trigger Property="IsPressed" Value="True">
                     <Setter TargetName="border" Property="Background" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Uid}"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
 
+        </ControlTemplate>
+
+            <!-- Controleur pour definir la bordure et les actions -->
+        <ControlTemplate x:Key="TemplateDeBase" TargetType="Button">
+            <Border x:Name="border"
+             Background="{TemplateBinding Background}" 
+             BorderBrush="{TemplateBinding BorderBrush}" 
+             BorderThickness="{TemplateBinding BorderThickness}" 
+             CornerRadius="35"
+             Padding="{TemplateBinding Padding}">
+             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="border" Property="Background" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Tag}"/>
+
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter TargetName="border" Property="Background" Value="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=Uid}"/>
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>
@@ -61,19 +82,21 @@
             <Setter Property="Foreground" Value="#000000"/>
         </Style>
 
-        <Style TargetType="Button" x:Key="StyleEgal">
-            <Setter Property="Background" Value="#FF9500"/>
+        <Style TargetType="Button" x:Key="StyleEgal" >
+            <Setter Property="Background" Value="#FF9500" />
             <Setter Property="Tag" Value="#FFA733"/>
             <Setter Property="Uid" Value="#CCC7A00"/>
             <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="Template" Value="{StaticResource TemplateEgalEtPlusOuMoins }"/>
         </Style>
 
 
-        <Style TargetType="Button" x:Key="Styleplusoumoins">
+        <Style TargetType="Button" x:Key="Styleplusoumoins" >
             <Setter Property="Background" Value="#333333"/>
             <Setter Property="Tag" Value="#4A4A4A"/>
             <Setter Property="Uid" Value="#1C1C1C"/>
             <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="Template" Value="{StaticResource TemplateEgalEtPlusOuMoins}"/>
 
         </Style>
 
