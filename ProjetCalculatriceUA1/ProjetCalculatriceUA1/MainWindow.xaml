@@ -30,16 +30,16 @@ Background="#000">
             </Grid.ColumnDefinitions>
 
 
-            <TextBlock Text=" 1+21" Grid.ColumnSpan="5" HorizontalAlignment="Right" VerticalAlignment="Center" Name="resultat" Foreground="White"/>
+            <TextBlock Text="" Grid.ColumnSpan="5" HorizontalAlignment="Right" VerticalAlignment="Center" Name="resultat" Style="{StaticResource StyleTextBlock}"/>
 
-            <TextBlock Text=" 0" Grid.ColumnSpan="5" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Name="calcul" Foreground="White"/>
+            <TextBlock Text="" Grid.ColumnSpan="5" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center" Name="calcul" Style="{StaticResource StyleTextBlock}"/>
 
             <!--#region  Ligne 1-->
             <Button Content="Sin" Grid.Row="2" Style="{StaticResource StyleGroupe3}" Name="sin"/>
             <Button Content="Cos" Grid.Row="2" Grid.Column="1" Style="{StaticResource StyleGroupe3}" Name="cos" />
             <Button Content="Tan" Grid.Row="2" Grid.Column="2" Style="{StaticResource StyleGroupe3}" Name="tan" />
             <Button Content="CE" Grid.Row="2" Grid.Column="3" Style="{StaticResource StyleGroupe3}" Name="effacerResultat"/>
-            <Button Content="C" Grid.Row="2" Grid.Column="4" Style="{StaticResource StyleGroupe3}" Name="effacerTout"/>
+            <Button Content="C" Grid.Row="2" Grid.Column="4" Style="{StaticResource StyleGroupe3}" Name="effacerTout" Click="effacerTout_Click"/>
             <!--#endregion-->
 
             <!--#region  Ligne 2-->
@@ -51,7 +51,7 @@ Background="#000">
             <!--#endregion-->
 
             <!--#region  Ligne 3-->
-            <Button Content="π" Grid.Row="4" Style="{StaticResource StyleGroupe1}" Name="pi"/>
+            <Button Content="π" Grid.Row="4" Style="{StaticResource StyleGroupe1}" Name="pi" />
             <Button Content="7" Grid.Row="4" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="sept"/>
             <Button Content="8" Grid.Row="4" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="huit"/>
             <Button Content="9" Grid.Row="4" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="neuf" />
@@ -59,7 +59,7 @@ Background="#000">
             <!--#endregion-->
 
             <!--#region  Ligne 4-->
-            <Button Content="e" Grid.Row="5" Style="{StaticResource StyleGroupe1}" Name="exponentielle" Height="43" Margin="5,5,5,0" VerticalAlignment="Center" />
+            <Button Content="e" Grid.Row="5" Style="{StaticResource StyleGroupe1}" Name="exponentielle" Height="43" Margin="5,5,5,0" VerticalAlignment="Center"  />
             <Button Content="4" Grid.Row="5" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="quatre" />
             <Button Content="5" Grid.Row="5" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="cinq" />
             <Button Content="6" Grid.Row="5" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="six" />
@@ -67,7 +67,7 @@ Background="#000">
             <!--#endregion-->
 
             <!--#region  Ligne 5-->
-            <Button Content="+/-" Grid.Row="6" Grid.RowSpan="2" Style="{StaticResource Styleplusoumoins}" Name="plusOuMoins" />
+            <Button Content="+/-" Grid.Row="6" Grid.RowSpan="2" Style="{StaticResource Styleplusoumoins}" Name="plusOuMoins" Click="plusOuMoins_Click" />
             <Button Content="1" Grid.Row="6" Grid.Column="1" Style="{StaticResource StyleGroupe1}" Name="un" />
             <Button Content="2" Grid.Row="6" Grid.Column="2" Style="{StaticResource StyleGroupe1}" Name="deux"/>
             <Button Content="3" Grid.Row="6" Grid.Column="3" Style="{StaticResource StyleGroupe1}" Name="trois" />
